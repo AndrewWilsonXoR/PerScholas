@@ -1,0 +1,656 @@
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ cd Desktop
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop
+$ cd ~
+
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ cd Desktop/dev
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ mkdir StarWarsTerminal
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ cd StarWarsTerminal
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/StarWarsTerminal
+$ cd StarWarsTerminal
+bash: cd: StarWarsTerminal: No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/StarWarsTerminal
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ cd Labs
+bash: cd: Labs: No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ ls
+StarWarsTerminal/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ mkdir galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ rm galaxy-far-far-away
+rm: cannot remove 'galaxy-far-far-away': Is a directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ ls
+StarWarsTerminal/  galaxy-far-far-away/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ touch commands.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ ls
+StarWarsTerminal/  commands.txt  galaxy-far-far-away/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ mv StarWarsTerminal/commands.txt ~galaxys-far-far-away/commands.txt
+mv: cannot stat 'StarWarsTerminal/commands.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ mv commands.txt ~galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ ls
+ StarWarsTerminal/   galaxy-far-far-away/  '~galaxy-far-far-away'
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ rm ~galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ cd StarWarsTerminal
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/StarWarsTerminal
+$ ls
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/StarWarsTerminal
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ ls
+StarWarsTerminal/  galaxy-far-far-away/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev
+$ cd galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/galaxy-far-far-away
+$ touch commands.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/Desktop/dev/galaxy-far-far-away
+$
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ cd dev
+bash: cd: dev: No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ cd desktop
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop
+$ cd dev
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev
+$ cd galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd tatooine
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt,  millenium_falcon/  obi_wan.txt  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv millenium_falcon/ /..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ;s
+bash: syntax error near unexpected token `;'
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt,  obi_wan.txt  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd tatooine
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt,  obi_wan.txt  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd tatooine
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt,  obi_wan.txt  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev
+$ ls
+StarWarsTerminal/  galaxy-far-far-away/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop
+$ ls
+ Atom.lnk*
+'Bloons TD 6.url'
+'Borderlands 2.url'
+'Counter-Strike Global Offensive.url'
+ CurseForge.lnk*
+'DARK SOULS™ III.url'
+ Dev/
+ Discord.lnk*
+'Dream Inv.txt'
+'ELDEN RING.url'
+'Fallout 4.url'
+ Fortnite.url
+ Hyper.lnk*
+"Mirror's Edge.url"
+'NARUTO SHIPPUDEN Ultimate Ninja STORM 4.url'
+'Nickelodeon All-Star Brawl.url'
+ Outlast.url
+ PerScholas/
+'Riot Client.lnk'*
+'Risk of Rain 2.url'
+'STEAM RECOVERY CODE.txt'
+'Totally not the answer.txt'
+'Tuesday meeting link.txt'
+ Valheim.url
+'Wallpaper Engine.url'
+ desktop.ini
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop
+$ cd dev
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev
+$ cd galaxy-far-far-away/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ mkdir millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ ls
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ;s
+bash: syntax error near unexpected token `;'
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd tatooine
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt,  obi_wan.txt  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv /tatooine/luke.txt ./millenium_falcon/
+mv: cannot stat '/tatooine/luke.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv ./tatooine/luke.txt ./millenium_falcon/
+mv: cannot stat './tatooine/luke.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv /desktop/dev/galaxy-far-far-away/tatooine/luke.txt /desktop/dev/galaxy-far-far-away/millenium_falcon/
+mv: cannot stat '/desktop/dev/galaxy-far-far-away/tatooine/luke.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv luke.txt /galaxy-far-far-away/millenium_falcon/
+mv: cannot stat 'luke.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv luke.txt, /galaxy-far-far-away/millenium_falcon/
+mv: cannot move 'luke.txt,' to '/galaxy-far-far-away/millenium_falcon/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv luke.txt, /millenium_falcon/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ ls
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ touch luke.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ cd tatooine
+bash: cd: tatooine: No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd tatooine
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+obi_wan.txt  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv obi_wan.txt ./millenium_falcon/
+mv: cannot move 'obi_wan.txt' to './millenium_falcon/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv obi_wan.txt /galaxy-far-far-away/millenium_falcon/
+mv: cannot move 'obi_wan.txt' to '/galaxy-far-far-away/millenium_falcon/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv obi_wan.txt Desktop/dev/galaxy-far-far-away/millenium_falcon/
+mv: cannot move 'obi_wan.txt' to 'Desktop/dev/galaxy-far-far-away/millenium_falcon/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv ob_wan.txt /millenium_falcon
+mv: cannot stat 'ob_wan.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ mv obi_wan.txt /millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ ls
+storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/tatooine
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ ls
+luke.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ touch obi_wan.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ ls
+luke.txt  obi_wan.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ mv millenium_falcon/ death_star/
+mv: cannot stat 'millenium_falcon/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ mv millenium_falcon death_star/
+mv: cannot stat 'millenium_falcon': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ mv /millenium_falcon death_star/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ ls
+death_star/  luke.txt  obi_wan.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon
+$ cd death_star
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon/death_star
+$ ls
+chewbaca.txt  han_solo.txt  luke.txt,  obi_wan.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon/death_star
+$ ls
+ls: cannot open directory '.': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon/death_star
+$ cd ..
+bash: cd: ..: No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/millenium_falcon/death_star
+$ cd
+
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ dir
+3D\ Objects        Cookies    Leaves           NCH\ Software\ Suite                                                NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.blf                                      OneDrive      Searches     ansel            ~desktop
+AppData            Desktop    Links            NTUSER.DAT                                                          NTUSER.DAT{d7aabdf6-1082-11eb-b8e1-e0d55ee387a8}.TM.blf                                       Pictures      SendTo       github
+Application\ Data  Documents  Local\ Settings  NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.0.regtrans-ms  NTUSER.DAT{d7aabdf6-1082-11eb-b8e1-e0d55ee387a8}.TMContainer00000000000000000001.regtrans-ms  PrintHood     Start\ Menu  ntuser.dat.LOG1
+Cincinnati         Downloads  Music            NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.1.regtrans-ms  NTUSER.DAT{d7aabdf6-1082-11eb-b8e1-e0d55ee387a8}.TMContainer00000000000000000002.regtrans-ms  Recent        Templates    ntuser.dat.LOG2
+Contacts           Favorites  My\ Documents    NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.2.regtrans-ms  NetHood                                                                                       Saved\ Games  Videos       ntuser.ini
+
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ ls
+'3D Objects'/         Desktop/    'Local Settings'@                                                     NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.1.regtrans-ms                             NetHood@        Searches/      github/
+ AppData/             Documents/   Music/                                                               NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.2.regtrans-ms                             OneDrive/       SendTo@        ntuser.dat.LOG1
+'Application Data'@   Downloads/  'My Documents'@                                                       NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.blf                                       Pictures/      'Start Menu'@   ntuser.dat.LOG2
+ Cincinnati/          Favorites/  'NCH Software Suite'/                                                 NTUSER.DAT{d7aabdf6-1082-11eb-b8e1-e0d55ee387a8}.TM.blf                                        PrintHood@      Templates@     ntuser.ini
+ Contacts/            Leaves/      NTUSER.DAT                                                           NTUSER.DAT{d7aabdf6-1082-11eb-b8e1-e0d55ee387a8}.TMContainer00000000000000000001.regtrans-ms   Recent@         Videos/       '~desktop'/
+ Cookies@             Links/       NTUSER.DAT{d7aabdf5-1082-11eb-b8e1-e0d55ee387a8}.TxR.0.regtrans-ms   NTUSER.DAT{d7aabdf6-1082-11eb-b8e1-e0d55ee387a8}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/   ansel/
+
+shino@DESKTOP-V21HKGG MINGW64 ~
+$ cd desktop
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop
+$ cd dev
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev
+$ cd galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd death_star
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt,  millenium_falcon/  princess_leia.txt,  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv princess_leia.txt millenium_falcon/
+mv: cannot stat 'princess_leia.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv /death_star/princess_leia.txt /death_star/millenium_falcon/
+mv: cannot stat '/death_star/princess_leia.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv death_star/princess_leia.txt /death_star/millenium_falcon/
+mv: cannot stat 'death_star/princess_leia.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv princess_leia.txt, /millenium_falcon/
+mv: cannot move 'princess_leia.txt,' to '/millenium_falcon/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv princess_leia.txt, millenium_falcon/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt,  millenium_falcon/  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ cd millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewbaca.txt  han_solo.txt  luke.txt  obi_wan.txt  princess_leia.txt,
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star/millenium_falcon
+$ cd ../..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ mkdir yavin_4
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ mv /death_star/millenium_falcon /yavin_4
+mv: cannot stat '/death_star/millenium_falcon': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ mv ./death_star/millenium_falcon/ /galaxy-far-far-away/yavin_4/
+mv: cannot move './death_star/millenium_falcon/' to '/galaxy-far-far-away/yavin_4/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd death_star
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv /millenium_falcon /galaxy-far-far-away/yavin_4
+mv: cannot stat '/millenium_falcon': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv millenium_falcon /galaxy-far-far-away/yavin_4
+mv: cannot move 'millenium_falcon' to '/galaxy-far-far-away/yavin_4': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv millenium_falcon ./yavin_4
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt,  storm_trooper.txt  yavin_4/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv yavin_4 ./millenium_falcon
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd yavin_4
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mkdir x_wing
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon/princess_leia.txt, galaxy-far-far-away/yavin_4
+mv: cannot move 'millenium_falcon/princess_leia.txt,' to 'galaxy-far-far-away/yavin_4': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon/princess_leia.txt, /galaxy-far-far-away/yavin_4/
+mv: cannot move 'millenium_falcon/princess_leia.txt,' to '/galaxy-far-far-away/yavin_4/': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ ^C
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ ^V
+bash: $'\026': command not found
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon/princess_leia.txt, /galaxy-far-far-away/yavin_4
+mv: cannot move 'millenium_falcon/princess_leia.txt,' to '/galaxy-far-far-away/yavin_4': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon/princess_leia.txt, ~/desktop/dev/galaxy-far-far-away/yavin_4
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess_leia.txt,  x_wing/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon/luke.txt ~/desktop/dev/galaxy-far-far-away/yavin_4
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ ls
+luke.txt  millenium_falcon/  princess_leia.txt,  x_wing/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon && x_wing ~/deskton/dev/galaxy-far-far-away
+mv: missing destination file operand after 'millenium_falcon'
+Try 'mv --help' for more information.
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon ~/desktop/dev/galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ mv x_wing ~/desktop/dev/galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/yavin_4
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/  x_wing/  yavin_4/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd death_star
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt,  storm_trooper.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mkdir tie_fighter1 tie_fighter2 tie_fighter3
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt,   tie_fighter1/  tie_fighter3/
+storm_trooper.txt  tie_fighter2/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv darth_vader.txt, ~/desktop/dev/galaxy-far-far-away/death_star/tie_fighter1
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt ~/desktop/dev/galaxy-far-far-away/death_star/tie_fighter2
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ cp storm_tropper.txt ~/desktop/dev/galaxy-far-far-away/death_star/tie_fighter3
+cp: cannot stat 'storm_tropper.txt': No such file or directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter1/  tie_fighter2/  tie_fighter3/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt ~/Desktop/dev/galaxy-far-far-away/death_star/tie_fighter3
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv tie_fighter1 ~/desktop/dev/galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv tie_fighter2 ~/desktop/dev/galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ mv tie_fighter3 ~/desktop/dev/galaxy-far-far-away
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/death_star
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ ls
+commands.txt  millenium_falcon/  tie_fighter1/  tie_fighter3/  yavin_4/
+death_star/   tatooine/          tie_fighter2/  x_wing/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ rm tie_fighter2
+rm: cannot remove 'tie_fighter2': Is a directory
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ rm -r tie_fighter2
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ rm -r tie_fighter3
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ cd x_wing
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/x_wing
+$ ls
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/x_wing
+$ mkdir the_force.txt
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away/x_wing
+$ cd ..
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ rm -r death_star
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ mv x_wing ~/Desktop/dev/galaxy-far-far-away/yavin_4
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
+$ mv millenium_falcon ~/desktop/dev/galaxy-far-far-away/yavin_4/
+
+shino@DESKTOP-V21HKGG MINGW64 ~/desktop/dev/galaxy-far-far-away
