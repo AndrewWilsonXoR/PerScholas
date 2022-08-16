@@ -1,0 +1,74 @@
+body{
+    background-image: url("https://www.pcgamesn.com/wp-content/uploads/legacy/world_of_warcraft_tiger's_peak_arena.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+}
+.navbar{
+    border: solid darkorange;
+    height:60px;
+    border-width:.2px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #a52a2a
+
+}
+.rnavops{
+    display:flex;
+    justify-content:flex-end;
+    
+
+
+}
+.mglass{
+    height:40px;
+    margin-bottom:18px;
+
+}
+
+.subnavops{
+    display:flex;
+    justify-content:flex-start;
+    margin-left:5px;
+    
+}
+.toonname{
+    color: white;
+    font-size: 40px;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+}
+.hordesymbol{
+    height:60px;
+    margin-left:3px;
+}
+.topinfo{
+    display:flex;
+    border:solid black;
+    height: fit-content;
+
+}
+.substats{
+    color: white;
+    font-size: 20px;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+}
+.morestats{
+    color: gold;
+    font-size: 20px;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+}
+.toonimg{
+    justify-content:center;
+
+}
+.characterrender{
+    justify-content:center;
+
+}
+.navbarshit{
+    margin:5px;
+    
+}
