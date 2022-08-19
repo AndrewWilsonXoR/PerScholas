@@ -1,74 +1,89 @@
-body{
-    background-image: url("https://www.pcgamesn.com/wp-content/uploads/legacy/world_of_warcraft_tiger's_peak_arena.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x:hidden;
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    font-family:arial;
 }
-.navbar{
-    border: solid darkorange;
-    height:60px;
-    border-width:.2px;
-    display: flex;
+.shiptxt{
+    background-color:rgba(107,120,102,255);
+    color:white;
+    text-align:center;
+    margin:0px;
+}
+.navcontainer{
+    display:flex;
     justify-content:space-between;
-    background-color: #a52a2a
-
+    text-align:center;
+    padding:5px;
 }
-.rnavops{
+.navbaropts{
     display:flex;
-    justify-content:flex-end;
-    
-
-
+    align-items:flex-end;
+    flex-flow:row;
+    justify-content:space-evenly;
+    text-align:center;
 }
-.mglass{
-    height:40px;
-    margin-bottom:18px;
-
+.tokyobikeimage{
+    width: 100%;
 }
-
-.subnavops{
+.phototxt{
+    position:relative;
+    background-color: rgba(255, 255, 255, 0.75);
+    bottom: 200px; 
+    padding: 20px;
+}
+.btnWhite{
+    border:solid white;
+    color: black;
+    background-color: white;
+    margin:12px;
+    font-size:10px;
+    width:120px;
+    text-align:center;
+    border-radius:22px;
+}
+.bikecontainertext{
+    text-align:center;
+    position:relative;
+    bottom:140px;
+    margin:0px;
+    background-color:gray;
+}
+.bikerow{
+    position:relative;
+    bottom:140px;
     display:flex;
-    justify-content:flex-start;
-    margin-left:5px;
-    
-}
-.toonname{
-    color: white;
-    font-size: 40px;
-     -webkit-text-stroke-width: 2px;
-     -webkit-text-stroke-color: black;
-}
-.hordesymbol{
-    height:60px;
-    margin-left:3px;
-}
-.topinfo{
-    display:flex;
+    flex-wrap:wrap;
+    background-color:gray;
     border:solid black;
-    height: fit-content;
-
 }
-.substats{
-    color: white;
-    font-size: 20px;
-     -webkit-text-stroke-width: 2px;
-     -webkit-text-stroke-color: black;
+.bisoublue{
+    width:33%;
 }
-.morestats{
-    color: gold;
-    font-size: 20px;
-     -webkit-text-stroke-width: 2px;
-     -webkit-text-stroke-color: black;
+.bisou{
+    width:90%;
 }
-.toonimg{
-    justify-content:center;
-
+.secondtext{
+    margin:2px;
+    text-align:center;
+    font-size:18px;
 }
-.characterrender{
-    justify-content:center;
-
+.lastcontainer{
+    display:flex;
 }
-.navbarshit{
-    margin:5px;
-    
+.lastbox{
+    width:33%;
+}
+.lastimage{
+    width:90%;
+}
+.button{
+    border:solid black;
+    color:black;
+    background-color:white;
+    margin:12px;
+    font-size:10px;
+    width:120px;
+    text-align:center;
+    border-radius:22px;
 }
