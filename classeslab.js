@@ -92,46 +92,18 @@ class Dinner{
     }
 }
 
-const Chef = {
-    appetizer: 'Mozz stixz',
-    entree: 'Chicken Tenders',
-    desert: 'creme frishe',
-    makeDinner: function(){
-        return this.appetizer + " " + this.entree + " " + this.desert;
-    }
-}
-const Chef1 = {
-    appetizer: 'Fried Pickles',
-    entree: '4.5oz filet mignon',
-    desert: 'Lavacake',
-    makeDinner: function(){
-        return this.appetizer + " " + this.entree + " " + this.desert;
-    }
-}
-const Chef2 = {
-    appetizer: 'Jesus bread',
-    entree: 'Fish',
-    desert: 'absolution',
-    makeDinner: function(){
-        return this.appetizer + " " + this.entree + " " + this.desert;
-    }
-}
+
 
 class Chef{
-    constructor(name) = {
+    constructor(name) {
         this.appetizer = appetizer,
         this.entree = entree,
         this.desert = desert,
-        function makeDinner(){
-            return this.appetizer + " " + this.entree + " " + this.desert;
+        function makeDinner(appetizer , entree , dinner){
+            let newdinner = new Dinner(appetizer , entree , dinner);
+            this.newdinner.push(new Dinner)
         }
+        
     }
 
-}
-
-
-function createDinner(chef) {
-    return {
-
-    }
 }
