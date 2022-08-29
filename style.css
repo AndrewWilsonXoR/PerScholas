@@ -1,89 +1,51 @@
 *{
-    padding:0;
-    margin:0;
-    border:0;
-    font-family:arial;
+    padding: 0;
+    margin: 0;
+    cursor: url('https://th.bing.com/th/id/R.e22f419560e73fd50946477aaf60aae3?rik=ACrKXem6I4g01Q&riu=http%3a%2f%2fwww.rw-designer.com%2fcursor-view%2f13114.png&ehk=DLPWNwEfGoYjTjDtXAJbkrR7XVJCSgJTJ5vS4bGJo3s%3d&risl=&pid=ImgRaw&r=0'),auto;
 }
-.shiptxt{
-    background-color:rgba(107,120,102,255);
-    color:white;
-    text-align:center;
-    margin:0px;
+body{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Free-HD-Cosmic-Wallpapers.jpg');
+    cursor: url('https://th.bing.com/th/id/R.e22f419560e73fd50946477aaf60aae3?rik=ACrKXem6I4g01Q&riu=http%3a%2f%2fwww.rw-designer.com%2fcursor-view%2f13114.png&ehk=DLPWNwEfGoYjTjDtXAJbkrR7XVJCSgJTJ5vS4bGJo3s%3d&risl=&pid=ImgRaw&r=0'),auto;
+    
 }
-.navcontainer{
-    display:flex;
-    justify-content:space-between;
-    text-align:center;
-    padding:5px;
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    cursor: url('https://th.bing.com/th/id/R.e22f419560e73fd50946477aaf60aae3?rik=ACrKXem6I4g01Q&riu=http%3a%2f%2fwww.rw-designer.com%2fcursor-view%2f13114.png&ehk=DLPWNwEfGoYjTjDtXAJbkrR7XVJCSgJTJ5vS4bGJo3s%3d&risl=&pid=ImgRaw&r=0'),auto;
 }
-.navbaropts{
-    display:flex;
-    align-items:flex-end;
-    flex-flow:row;
-    justify-content:space-evenly;
-    text-align:center;
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 190px;
+    z-index: 10001
 }
-.tokyobikeimage{
-    width: 100%;
-}
-.phototxt{
+.block{
+    width:400px;
+    height:20px;
+    background-color:black;
     position:relative;
-    background-color: rgba(255, 255, 255, 0.75);
-    bottom: 200px; 
-    padding: 20px;
+    top:100px;
+    margin-top: -20px;
+    z-index: 10000;
 }
-.btnWhite{
-    border:solid white;
-    color: black;
-    background-color: white;
-    margin:12px;
-    font-size:10px;
-    width:120px;
-    text-align:center;
-    border-radius:22px;
-}
-.bikecontainertext{
-    text-align:center;
-    position:relative;
-    bottom:140px;
-    margin:0px;
-    background-color:gray;
-}
-.bikerow{
-    position:relative;
-    bottom:140px;
-    display:flex;
-    flex-wrap:wrap;
-    background-color:gray;
-    border:solid black;
-}
-.bisoublue{
-    width:33%;
-}
-.bisou{
-    width:90%;
-}
-.secondtext{
-    margin:2px;
-    text-align:center;
-    font-size:18px;
-}
-.lastcontainer{
-    display:flex;
-}
-.lastbox{
-    width:33%;
-}
-.lastimage{
-    width:90%;
-}
-.button{
-    border:solid black;
-    color:black;
+.hole{
+    width: 40px;
+    height: 20px;
     background-color:white;
-    margin:12px;
-    font-size:10px;
-    width:120px;
-    text-align:center;
-    border-radius:22px;
+    opacity: 0.4;
+    position:relative;
+    top: 100px;
+    margin-top: -20px;
+    z-index: 10000;
+}
+.highscorebox{
+    background:grey;
+    border:solid black;
+    width:33%;
 }
